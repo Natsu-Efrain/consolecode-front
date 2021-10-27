@@ -14,6 +14,16 @@
 </mat-form-field>
 
 <mat-form-field appearance="fill">
+    <mat-label>Sexo</mat-label>
+    <input matInput placeholder="Sexo" [(ngModel)]="persona.sexo">
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Fecha de nacimiento</mat-label>
+    <input matInput placeholder="Fecha de nacimiento" [(ngModel)]="persona.fecha_nacimiento">
+</mat-form-field>
+
+<mat-form-field appearance="fill">
     <mat-label *ngIf="persona.pais">{{persona.pais.nombre}}</mat-label>
     <mat-select matInput placeholder="Seleccione país" [(ngModel)]="persona.pais">
         <mat-option *ngFor="let p of pais" [value]="p">

@@ -14,7 +14,7 @@ import { PersonaModalComponent } from './persona-modal/persona-modal.component';
   styleUrls: ['./persona.component.css']
 })
 export class PersonaComponent implements OnInit {
-  displayedColumns = ['idPersona','nombres','apellidos','edad','pais','editar-eliminar'];
+  displayedColumns = ['idPersona','nombres','apellidos','edad','sexo','fecha_nacimiento','pais','editar-eliminar'];
   dataSource!: MatTableDataSource<Persona>
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;

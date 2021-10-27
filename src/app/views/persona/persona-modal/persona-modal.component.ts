@@ -27,6 +27,8 @@ export class PersonaModalComponent implements OnInit {
     this.persona.apellidos = this.data.apellidos;
     this.persona.edad = this.data.edad;
     this.persona.pais = this.data.pais;
+    this.persona.sexo = this.data.sexo;
+    this.persona.fecha_nacimiento = this.data.fecha_nacimiento;
 
     this.paisService.listar().subscribe(data => {
     this.pais = data;

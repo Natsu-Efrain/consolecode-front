@@ -43,6 +43,22 @@
         </ng-container>
 
         <!-- Symbol Column -->
+        <ng-container matColumnDef="sexo">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by symbol">
+                Sexo
+            </th>
+            <td mat-cell *matCellDef="let element"> {{element.sexo}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="fecha_nacimiento">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by symbol">
+                Fecha de nacimiento
+            </th>
+            <td mat-cell *matCellDef="let element"> {{element.fecha_nacimiento}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
         <ng-container matColumnDef="pais">
             <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by symbol">
                 Pais

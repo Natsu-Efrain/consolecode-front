@@ -7,4 +7,6 @@ export class Persona{
   apellidos!: string;
   edad!: number;
   pais!: Pais;
+  sexo!: string;
+  fecha_nacimiento!: string;
 }
