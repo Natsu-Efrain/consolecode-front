@@ -7,7 +7,7 @@ import { Persona } from 'src/app/model/persona';
 import { PersonaService } from 'src/app/service/persona.service';
 import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
 import { PersonaModalComponent } from './persona-modal/persona-modal.component';
-
+//Prueba
 @Component({
   selector: 'app-persona',
   templateUrl: './persona.component.html',
